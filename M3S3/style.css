@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+
+#notaInput {
+    width: 70%;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+#agregarBtn {
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #007bff;
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+#agregarBtn:hover {
+    background-color: #0056b3;
+}
+
+
+#listaNotas {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+#listaNotas li {
+    background-color: #eeeeee;
+
+    margin-bottom: 10px;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eliminarBtn {
+    background-color: crimson;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+}
+
+.eliminarBtn:hover {
+    background-color: darkred;
+}
