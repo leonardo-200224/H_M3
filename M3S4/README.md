@@ -96,8 +96,6 @@ La aplicación almacena la información en:
 
 ##  Evidencias requeridas
 
-Para la entrega se deben incluir capturas de:
-
 1. DOM antes y después de una operación.
 ![alt text](image.png)
 ![alt text](image-1.png)
