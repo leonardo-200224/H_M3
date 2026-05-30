@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Manager Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1> Product Manager </h1>
+    </header>
+
+    <div id="message"></div>
+    <form id="productForm">
+
+        <div class="input-group">
+            <label>Nombre</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Nombre del producto"
+                required
+            >
+        </div>
+
+        <div class="input-group">
+            <label>Precio</label>
+            <input
+                type="number"
+                id="price"
+                placeholder="Precio"
+                min="1"
+                required
+            >
+        </div>
+
+        <button type="submit">
+            Guardar Producto
+        </button>
+
+    </form>
+
+    <div class="actions">
+        <button id="syncBtn">
+             Sincronizar API
+        </button>
+    </div>
+
+    <ul id="productList"></ul>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

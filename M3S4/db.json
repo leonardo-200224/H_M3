@@ -1,0 +1,15 @@
+{
+  "productos": [
+    {
+      "id": "IhqhP0XnOAE",
+      "name": "Mouse",
+      "price": 20900
+    },
+    {
+      "id": "7-X7vk0S_ZY",
+      "name": "Teclado",
+      "price": 300
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
